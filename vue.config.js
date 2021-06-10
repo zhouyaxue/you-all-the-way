@@ -39,7 +39,7 @@ module.exports = {
   // indexPath 指定生成的 index.html 的输出路径 (相对于 outputDir)。也可以是一个绝对路径。
   devServer: {
     host: process.env.Host || '0.0.0.0',
-    https: false,
+    https: true,
     open: true, // 自启动
     port: 9001,
     proxy: {
